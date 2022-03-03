@@ -1,0 +1,21 @@
+.CenterContent-info p:nth-child(odd){
+  background-color: #ccc;
+}
+#Time-id{
+  animation:tiao 5s infinite;
+}
+
+@keyframes tiao{
+  0%{
+    opacity: 0.2;
+    color: rgb(214, 141, 4);
+  }
+  50%{
+    opacity: 0.8;
+    color: rgb(51, 148, 64);
+  }
+  100%{
+    opacity: 0.2;
+    color: rgb(214, 141, 4);
+  }
+}

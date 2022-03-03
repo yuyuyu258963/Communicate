@@ -1,0 +1,34 @@
+.Head-content{
+  text-align: center;
+  align-items: center;
+  background-color: rgb(46,54,65);
+  opacity: 0.95;
+  height: 55px;
+  z-index:11;
+  overflow: hidden;
+}
+
+
+#Head-title{
+  font-weight: 450;
+  font-size: 25px;
+  color: #fff;
+  align-self: center;
+  white-space:pre-wrap;
+  word-break: break-all;
+  transition: color 0.5s ease-in 0s;
+  /* cursor: pointer;s */
+}
+#Head-title:hover{
+  color: orangered;
+}
+
+#Head-title::after{
+  content: " 回忆美好生活，充实未来！往后余生, 好好过!";
+  width: 100px;
+  height: 3px;
+  font-size: 15px;
+  color: rgb(161, 161, 161);
+  margin-left: 10px;
+  align-items: center;
+}

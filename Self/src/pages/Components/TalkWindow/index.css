@@ -1,0 +1,86 @@
+.TalkWindow{
+  display: inline-block;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 98%;
+  /* flex-grow: 1; */
+}
+.Talk-main{
+  height: 530px;
+  width: 98%;
+  margin: 0 auto;
+  /* background-color: white; */
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  transition: all 0.5s ease-in-out;
+  fill: white;
+  font-size: 12px;
+}
+
+.Talk-main:hover{
+  border: 1px solid skyblue;
+  box-shadow: 0 0 10px 3px skyblue;
+}
+
+.Talk-main::-webkit-scrollbar {
+  width: 12px;
+  background-color: #eff1f5;
+}
+.Talk-main::-webkit-scrollbar-track{
+  border-radius: 3px;
+  background-color: transparent;
+}
+.Talk-main::-webkit-scrollbar-thumb{
+  border-radius:5px;
+  background-color:#515769;
+  border:2px solid #eff1f5
+}
+
+.Talk-Communicate-left{
+  background-color: #fff;
+  max-width: 200px;
+  min-width: 20px;
+  padding: 5px 8px;
+  display: inline-block;
+  border-radius: 4px;
+  margin:10px 0 10px 10px;
+  position: relative;
+  word-wrap: break-word;
+  background-color: rgb(79, 153, 202);
+}
+
+.Talk-Communicate-left::after{
+  content: '';
+  border: 8px solid #ffffff00;
+  border-right: 8px solid rgb(79, 153, 202);
+  position: absolute;
+  top: 3px;
+  left: -15px;
+}
+
+.Talk-Communicate-right{
+  background-color: #fff;
+  max-width: 200px;
+  min-width: 20px;
+  padding: 5px 8px;
+  display: inline-block;
+  border-radius: 4px;
+  margin:10px 10px 10px 0px;
+  position: relative;
+  word-wrap: break-word;
+  background-color: rgb(172, 216, 103);
+}
+
+.Talk-Communicate-right::after{
+  content: '';
+  border: 8px solid #ffffff00;
+  border-left: 8px solid rgb(172, 216, 103);
+  position: relative;
+  float: right;
+  top: 0px;
+  left: 23px;
+}
